@@ -185,7 +185,7 @@ export const topics = [
     brokenHighlight: [1],
     placeholder:
       "function showUser(user) {\n  \n  console.log(name + ' is ' + age);\n}\n\nconst person = { name: 'Lee', age: 29 };\nshowUser(person);",
-    hint: "Destructure right in the parameter list. Look here: https://www.w3schools.com/JS/js_destructuring.asp.",
+    hint: "Destructure right in the parameter list. Look here: https://www.w3schools.com/JS/js_destructuring.asp",
     validate: (code) => {
       const destructuredParam =
         /function\s+showUser\s*\(\s*\{\s*name\s*,\s*age\s*\}\s*\)/.test(code);
