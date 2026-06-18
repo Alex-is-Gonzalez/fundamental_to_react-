@@ -431,7 +431,7 @@ export const topics = [
     brokenHighlight: [3],
     placeholder:
       "function Status({ isOnline }) {\n  return (\n    <p>\n      \n    </p>\n  );\n}",
-    hint: 'Replace the if/else with a ternary inside curly braces: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/"',
+    hint: "Replace the if/else with a ternary inside curly braces: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/",
     validate: (code) => {
       const hasTernary =
         /\{\s*isOnline\s*\?\s*'Online'\s*:\s*'Offline'\s*\}/.test(code);
